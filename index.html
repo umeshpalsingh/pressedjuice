@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pressed Juice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom-style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+
+    <!--------------------------Header Section ------------------------>
+
+    <!-- <header class="header">
+        <div class="container2">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="d-flex justify-content-center navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">+Juice Cleanse</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex ms-auto">
+                            <ul class="d-flex justify-content-start navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Press</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Location</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Order</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header> -->
+
+
+    <!-- Header Start -->
+    <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarScroll">
+                        <ul class="navbar-nav navbar-nav-scroll custom-menu">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Menu</a>
+                            </li>
+
+                            <li class="nav-item drop-down">
+                                <a class="nav-link dropbtn"  role="button" data-bs-toggle="dropdown" aria-expanded="false">+Juice Cleanse</a>
+                                <ul class="dropdown-content nav-menu">
+                                    <li><a href="#">Option 1</a></li>
+                                    <li class="m-0"><a href="#">Option 2</a></li>
+                                    <li class="m-0"><a href="#">option 3</a></li>
+                                  </ul>
+                            </li>
+                        </ul>
+                        <a class="navbar-brand" href="/">
+                            <img src="assets/images/logo.svg" alt="logo" />
+                        </a>
+                        <div class="d-flex header-right">
+                            <ul class="navbar-nav d-flex justify-content-between custom-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Press</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Location</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Order</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <!-- Header Ends -->
+    
+    <!-- Mobile Header Start -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li class="drop-down">
+                <a class="dropbtn" href="#">+Juice Cleanse</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="#">Option 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Order</a></li>
+        </ul>
+    </div>
+
+    <header class="mobile-offcanvas">
+        <div class="container">
+            <div class="mobile-sidebar">
+                <div class="mobile-logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </div>
+                <div>
+                  <span class="hamburger" onclick="openNav()"><i class="fa-sharp fa-solid fa-bars"></i></span>  
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Mobile Header Ends -->
+
+
+    <!-- Home Banner Section Starts -->
+    <section class="home-banner-section">
+            <!-- Swiper -->
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff;" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-1"></div>
+                    <div class="swiper-slide slide-2"></div>
+                    <div class="swiper-slide slide-3"></div>
+                </div>
+                <div thumbsSlider="" class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        Green
+                      </div>
+                      <div class="swiper-slide">
+                        Roots
+                      </div>
+                      <div class="swiper-slide">
+                        Citrus
+                      </div>
+                    </div>
+                </div>
+                <!-- <div class="home-options">
+                    <ul>
+                        <li>
+                            <a class="green" href="#">Green</a>
+                        </li>
+                        <li>
+                            <a class="roots" href="#">Roots</a>
+                        </li>
+                        <li>
+                            <a class="citrus" href="#">Citrus</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="banner-headings">
+                    <div class="container">
+                        <h1 class="pressed">Pressed</h1>
+                        <h1 class="juice">Juice</h1>
+                        <h1 class="daily">Daily</h1>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Home Banner Section Ends -->
+
+    <section class="why-cleanse">
+        <div class="container">
+            <h2>Why We Cleanse</h2>
+            <p>
+                The benefits of cleansing are many, the most important of which is eliminating toxins from our system. The toxins cause stress in our tissues and organs, which in turn cause inflammation and eventually disease. The kidneys, lungs, small and large intestines, liver, colon and gall bladder all work together while juice cleansing to eliminate toxins. Other benefits often experienced with cleansing include:
+            </p>
+        </div>
+        <div class="aloe-vera">
+            <img src="assets/images/aloe_vera.webp" alt="aloe-vera">
+        </div>
+    </section>
+
+    <div class="organic-box">
+        <div class="container">
+            <h4>
+                ORGANIC COLD PRESSED JUICE $10
+            </h4>
+        </div>
+        <div class="organic-juice">
+            <p>Juices</p>
+        </div>
+    </div>
+
+    <section class="juice-shop-section">
+            <div class="container">
+                <div class="row">
+                    <div class="swiper secondSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/images/green-4.webp" alt="">
+                                    </div>
+                                    <div class="product-content">
+                                        <h6>Green 4</h6>
+                                        <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                        <a href="#">Shop Now</a>
+                                    </div>
+                                </div>            
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/images/root-3.webp" alt="">
+                                    </div>
+                                    <div class="product-content">
+                                        <h6>Root 3</h6>
+                                        <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                        <a href="#">Shop Now</a>
+                                    </div>
+                                </div>            
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/images/citrus-2.webp" alt="">
+                                    </div>
+                                    <div class="product-content">
+                                        <h6>Citrus 2</h6>
+                                        <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                        <a href="#">Shop Now</a>
+                                    </div>
+                                </div>            
+                            </div>
+    
+                            
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/images/root-2.webp" alt="">
+                                    </div>
+                                    <div class="product-content">
+                                        <h6>Root 2</h6>
+                                        <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                        <a href="#">Shop Now</a>
+                                    </div>
+                                </div>            
+                            </div>
+    
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/images/green-4.webp" alt="">
+                                    </div>
+                                    <div class="product-content">
+                                        <h6>Green 4</h6>
+                                        <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                        <a href="#">Shop Now</a>
+                                    </div>
+                                </div>            
+                            </div>
+    
+    
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/images/root-3.webp" alt="">
+                                    </div>
+                                    <div class="product-content">
+                                        <h6>Root 4</h6>
+                                        <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                        <a href="#">Shop Now</a>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <div class="lemonade-box">
+        <div class="container">
+            <h4>LEMONADES, WATERS & MORE...</h4>
+        </div>
+        <div class="lamonade-juice">
+            <p>Lemonade</p>
+        </div>
+    </div>
+
+
+    <section class="juice-shop-section">
+        <div class="container">
+            <div class="row">
+                <div class="swiper thirdSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/charcoal_lemonade.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Charcoal Lemonade</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/spicy-lemonade.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Spicy Lemonade</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/chlorophyll-water.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Chlorophyll Water</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/aloe-water.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Aloe Water</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="organic-shots">
+        <div class="container">
+            <h4>ORGANIC SMART SHOTS 2oz  $5</h4>
+        </div>
+        <div class="organic-shot-juice">
+            <p>Shots</p>
+        </div>
+    </div>
+
+    <section class="juice-shop-section">
+        <div class="container">
+            <div class="row">
+                <div class="swiper forthSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/wellbeing.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Wellbeing</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/detox.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Detox</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/immunity.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Immunity</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/ginger.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Ginger</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/aloe_water.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Aloe Water</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/awake.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Awake</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-img">
+                                    <img src="assets/images/turmeric.webp" alt="">
+                                </div>
+                                <div class="product-content">
+                                    <h6>Turmeric</h6>
+                                    <p>spinach, parsley, cucumber, red apple, lemon</p>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-box-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="gift-box-card"> 
+                        <div class="gift-img">
+                            <img src="assets/images/buy_combo.webp" alt="">
+                        </div>
+                        <h5>Buy Combo</h5>
+                        <span></span>
+                        <p>
+                            WE MAKE IT EASY AND YOU WON'T HAVE TO LIFT A FINGER. WE CAN CUSTOMIZE A PLAN THAT IS PERFECT FOR YOU.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="gift-box-card"> 
+                        <div class="gift-img"> 
+                            <img src="assets/images/gift_card.webp" alt="">
+                        </div>
+                        <h5>Gift Card</h5>
+                        <span></span>
+                        <p>
+                            GIVE THE GIFT OF HEALTH
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="gift-box-card"> 
+                        <div class="gift-img">
+                            <img src="assets/images/cleanse_option.webp" alt="">
+                        </div>
+                        <h5>Cleanse Option</h5>
+                        <span></span>
+                        <p>
+                            WHETHER YOU ARE LOOKING FOR A WHOLE SYSTEM DETOX, AN IMMUNE BOOST OR JUST WANT TO DROP A FEW UNWANTED POUNDS, WE HAVE THE CLEANSE FOR YOU.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="join-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>A different category of supplements deserves a different kind of newsletter.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="email-subscribe">
+                        <form>
+                            <input type="email" placeholder="Email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <p>Newsletter</p>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container">
+                <div class="footer-box">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img src="assets/images/footer-logo.svg" alt="footer-logo">
+                        </a>
+                    </div>
+                    <div class="footer-content-box">
+                        <div class="address-box">
+                            <h5>Address</h5>
+                            <p>
+                                1111 N BROADWAY DENVER, CO 80203 4421 W. 43RD DENVER, CO 80212 2120 SOUTH BROADWAY UNIT B DENVER, CO 80205
+                            </p>
+                        </div>
+                        <div class="contact-box">
+                            <h5>Contact</h5>
+                            <a href="mailto:INFO@PRESSEDJUICEDAILY.COM">INFO@PRESSEDJUICEDAILY.COM</a>
+                            <a href="tel:(303) 296-1234">(303) 296-1234</a>
+                        </div>
+                        <div class="follow-box">
+                            <h5>Follow Us</h5>
+                            <div class="social-box">
+                                <a href="#"><img src="assets/images/facebook.svg" alt="facebook"></a>
+                                <a href="#"><img src="assets/images/twitter.svg" alt="twitter"></a>
+                                <a href="#"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                                <a href="#"><img src="assets/images/youtube.svg" alt="youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="open-days">
+                <a href="#">OPEN 7 DAYS 9am-4pm</a>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-box">
+        <div class="container">
+            <p>© 2021 pressedjuicedaily. All Rights Reserved. Designed And Developed By <a target="_blank" class="text-white text-decoration-none" href="https://ogrelogic.com/">Ogrelogic</a>. Terms & Conditions  |  Privacy Policy</p>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+          spaceBetween: 0,
+          slidesPerView: 4,
+          freeMode: true,
+          watchSlidesProgress: true
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+          spaceBetween: 0,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          },
+          thumbs: {
+            swiper: swiper
+          }
+        });
+      </script>
+
+<script>
+    var swiper = new Swiper(".secondSwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+          100:{
+            slidesPerView:1,
+          },
+          480: {
+            slidesPerView: 2,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1299: {
+            slidesPerView: 3,
+          },
+          1600: {
+            slidesPerView: 4
+          }
+        },
+    });
+  </script>
+  
+<script>
+    var swiper = new Swiper(".thirdSwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+          100:{
+            slidesPerView:1,
+          },
+          480: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1299: {
+            slidesPerView: 3,
+          },
+          1600: {
+            slidesPerView: 4
+          }
+        },
+    });
+  </script>
+
+<script>
+    var swiper = new Swiper(".forthSwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+          100:{
+            slidesPerView: 1,
+          },
+          480: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1299: {
+            slidesPerView: 3,
+          },
+          1600: {
+            slidesPerView: 4
+          }
+        },
+    });
+  </script>
+
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "320px";
+        }
+        
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

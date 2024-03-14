@@ -1,0 +1,709 @@
+@media (min-width: 1600px) {
+  .container {
+  max-width: 1600px;
+  }
+ }
+
+/* For Mobile Responsive Header */
+@media (min-width: 992px) {
+  .sidenav, .mobile-offcanvas {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1599px) {
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+
+  .mySwiper1 > .swiper-wrapper > .swiper-slide {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .banner-headings .pressed {
+    font-size: 110px;
+  }
+  .banner-headings .juice {
+    right: 200px;
+    font-size: 110px;
+  }
+
+  .banner-headings .daily {
+    bottom: 0;
+    right: 95px;
+    font-size: 110px;
+  }
+
+  .why-cleanse p {
+    font-size: 22px;
+  }
+
+  .footer-section .footer-logo {
+    max-width: calc(100%/2 - 6%);
+    width: 100%;
+  }
+
+  .footer-content-box {
+    gap: 35px;
+  }
+
+  .why-cleanse .aloe-vera img {
+    width: 80%;
+  }
+
+  .organic-box h4, .lemonade-box h4, .organic-shots h4 {
+    font-size: 38px;
+  }
+
+  .product-content p {
+    padding: 30px 0;
+  }
+
+  .organic-juice p, .lamonade-juice p, .organic-shot-juice p  {
+    font-size: 90px;
+  }
+
+  .gift-box-section .gift-box-card h5 {
+    font-size: 26px;
+  }
+
+  .gift-box-section .gift-box-card p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 30px auto 40px;
+  }
+
+  .newsletter-section .join-newsletter h4 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .newsletter-section .join-newsletter p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 90%;
+  }
+
+  .newsletter-section .email-subscribe input {
+    font-size: 18px;
+    line-height: 28px;
+    width: 69%;
+    padding: 12px 24px;
+  }
+
+  .newsletter-section .email-subscribe button {
+    padding: 12px 30px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .footer-section .footer-logo a img {
+    max-width: 260px;
+    width: 100%;
+  }
+
+  .footer-section .address-box h5, .footer-section .contact-box h5, .footer-section .follow-box h5 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 22px;
+  }
+
+  .footer-section .address-box p, .footer-section .contact-box a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .copyright-box p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .open-days a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .newsletter-section .newsletter p {
+    font-size: 90px;
+  }
+
+}
+
+@media (max-width: 1399px) {
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .mySwiper1 > .swiper-wrapper > .swiper-slide {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .banner-headings .pressed, .banner-headings .juice {
+    font-size: 90px;
+    line-height: 200px;
+  }
+
+  .banner-headings .daily {
+    bottom: 35px;
+    right: 110px;
+    font-size: 90px;
+    line-height: 200px;
+  }
+
+  .slide-1, .slide-2, .slide-3 {
+    height: 700px;
+  }
+
+  .why-cleanse h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .why-cleanse p {
+    font-size: 18px;
+    line-height: 35px;
+    width: 90%;
+  }
+
+  .why-cleanse .aloe-vera img {
+    width: 70%;
+  }
+
+  .organic-box h4, .lemonade-box h4, .organic-shots h4 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .organic-juice p, .lamonade-juice p, .organic-shot-juice p {
+    font-size: 80px;
+    line-height: 130px;
+  }
+
+  .footer-content-box {
+    gap: 30px;
+  }
+
+  .footer-section .footer-logo {
+    max-width: calc(100%/2 - 12%);
+    width: 100%;
+  }
+
+  .footer-section .footer-logo a img {
+    max-width: 230px;
+    width: 100%;
+  }
+
+  .copyright-box p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .newsletter-section .newsletter {
+    right: 45px;
+  }
+
+  .gift-box-section .gift-box-card p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 30px auto 30px;
+  }
+
+  .gift-box-section .gift-box-card h5 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .product-content h6 {
+    line-height: 26px;
+    margin: 35px 0 12px;
+  }
+
+  .product-content a {
+    padding: 12px 80px;
+  }
+  
+}
+
+@media (max-width: 1199px) {
+  .mySwiper1 > .swiper-wrapper > .swiper-slide {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .banner-headings .pressed, .banner-headings .juice {
+    font-size: 75px;
+    line-height: 180px;
+  }
+
+  .banner-headings .juice {
+    right: 130px;
+  }
+
+  .banner-headings .daily {
+    right: 60px;
+    font-size: 75px;
+  }
+
+  .slide-1, .slide-2, .slide-3 {
+    height: 630px;
+  }
+
+  .why-cleanse {
+    padding: 45px 0 80px;
+  }
+
+  .why-cleanse h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .why-cleanse p {
+    font-size: 16px;
+    line-height: 32px;
+    width: 81%;
+  }
+
+  .why-cleanse .aloe-vera img {
+    width: 55%;
+  }
+
+  .organic-box h4, .lemonade-box h4, .organic-shots h4 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .organic-juice p, .lamonade-juice p, .organic-shot-juice p {
+    font-size: 65px;
+    line-height: 90px;
+  }
+
+  .organic-juice {
+    left: 38px;
+  }
+
+  .lamonade-juice {
+    right: 22px;
+  }
+
+  .product-content h6 {
+    margin: 10px 0;
+  }
+
+  .product-content a {
+    padding: 10px 40px;
+  }
+
+  .gift-box-section {
+    padding: 60px 0 35px;
+  }
+
+  .gift-box-section .gift-box-card h5 {
+    margin: 15px 0;
+  }
+
+  .gift-box-section .gift-box-card p {
+    line-height: 24px;
+    margin: 20px auto;
+  }
+
+  .newsletter-section {
+    padding: 45px 0 25px;
+  }
+
+  .newsletter-section .join-newsletter h4 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .newsletter-section .join-newsletter p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 80%;
+  }
+
+  .newsletter-section .newsletter {
+    right: 10px;
+  }
+
+  .footer-content-box {
+    gap: 20px;
+  }
+
+  .footer-section .footer-logo {
+    max-width: calc(100%/2 - 30%);
+    width: 100%;
+  }
+
+  .copyright-box p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .newsletter-section .newsletter p {
+    font-size: 64px;
+    line-height: 110px;
+  }
+
+  .footer-section .address-box h5, .footer-section .contact-box h5, .footer-section .follow-box h5 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .footer-section .address-box p, .footer-section .contact-box a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer-section .follow-box .social-box > a > img {
+    max-width: 24px;
+  }
+
+  .open-days {
+    right: 50px;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    display: none;
+  }
+
+  .slide-1, .slide-2, .slide-3 {
+    height: 600px;
+  }
+
+  .banner-headings .pressed, .banner-headings .juice {
+    font-size: 65px;
+    line-height: 140px;
+  }
+
+  .banner-headings .juice {
+    right: 65px;
+  }
+
+  .banner-headings .daily {
+    right: 10px;
+    font-size: 65px;
+    line-height: 180px;
+  }
+
+  .why-cleanse p {
+    font-size: 16px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .why-cleanse .aloe-vera img {
+    width: 40%;
+  }
+
+  .organic-juice p, .lamonade-juice p, .organic-shot-juice p {
+    font-size: 50px;
+  }
+
+  .organic-juice {
+    left: 20px;
+  }
+
+  .product-content p {
+    padding: 22px 0;
+  }
+
+  .lamonade-juice {
+    right: 15px;
+  }
+
+  .join-newsletter {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .newsletter-section .join-newsletter p {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .email-subscribe > form {
+    text-align: center;
+  }
+
+  .newsletter-section .newsletter p {
+    font-size: 42px;
+  }
+  .newsletter-section .newsletter {
+    right: 108px;
+    top: 175px;
+  }
+
+  .footer-section .footer-box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-section .footer-logo, .footer-section .footer-logo a img {
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .footer-content-box {
+    gap: 40px;
+  }
+
+  .footer-section {
+    padding: 35px 0 40px;
+  }
+
+
+  .newsletter-section {
+    padding: 45px 0 60px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .mobile-sidebar > .mobile-logo > img {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .mySwiper1 > .swiper-wrapper > .swiper-slide {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .banner-headings .pressed, .banner-headings .juice {
+    font-size: 48px;
+    line-height: 120px;
+  }
+
+  .banner-headings .juice {
+    right: 20px;
+  }
+
+  .banner-headings .daily {
+    right: 0;
+    font-size: 48px;
+    line-height: 180px;
+  }
+
+  .why-cleanse h2 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .why-cleanse p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 100%;
+  }
+
+  .organic-box h4, .lemonade-box h4, .organic-shots h4 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .organic-juice p, .lamonade-juice p, .organic-shot-juice p {
+    font-size: 38px;
+  }
+
+  .newsletter-section .newsletter p {
+    font-size: 38px;
+  }
+
+  .product-content p {
+    padding: 16px 0;
+  }
+
+  .product-content p {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 12px 0 20px;
+  }
+
+  .drop-down:hover .dropdown-content {
+    display: block;
+    margin-left: 32px;
+  }
+
+  .newsletter-section .newsletter {
+    right: 60px;
+    top: 175px;
+  }
+
+  .open-days {
+    right: 170px;
+    bottom: 50px;
+  }
+ 
+}
+
+@media (max-width: 575px) {
+  .banner-headings .pressed, .banner-headings .juice {
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .banner-headings .daily {
+    right: 0;
+    font-size: 36px;
+    line-height: 145px;
+  }
+
+  .why-cleanse p {
+    font-size: 17px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .secondSwiper > .swiper-wrapper > .swiper-slide > .product-card, .thirdSwiper > .swiper-wrapper > .swiper-slide > .product-card,
+  .forthSwiper > .swiper-wrapper > .swiper-slide > .product-card {
+    padding: 0 10px;
+  }
+
+  .product-content h6 {
+    font-size: 18px;
+  }
+
+  .product-content a {
+    font-size: 18px;
+  }
+
+  .gift-box-section {
+    padding: 20px 0;
+  }
+
+  .newsletter-section .newsletter p {
+    font-size: 34px;
+    line-height: 36px;
+  }
+
+  .newsletter-section .newsletter {
+    top: 210px;
+    right: 5px;
+  }
+
+  .footer-section .footer-logo, .footer-section .footer-logo a img {
+    margin-bottom: 10px;
+  }
+
+  .open-days {
+    right: 90px;
+    bottom: 50px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .newsletter-section .email-subscribe form {
+    white-space: normal;
+  }
+
+  .newsletter-section .email-subscribe input, .newsletter-section .email-subscribe button {
+    width: 100%;
+  }
+
+
+  .banner-headings .juice {
+    bottom: 50px;
+    right: 70px;
+  }
+
+  .banner-headings .daily {
+    right: 35px;
+    font-size: 36px;
+    line-height: 30px;
+  }
+
+  .why-cleanse h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .why-cleanse p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .organic-box h4, .lemonade-box h4, .organic-shots h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .organic-juice p, .lamonade-juice p, .organic-shot-juice p {
+    font-size: 32px;
+  }
+
+  .open-days {
+    right: 50px;
+    bottom: 5px;
+  }
+
+  .copyright-box p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .footer-section .address-box h5, .footer-section .contact-box h5, .footer-section .follow-box h5 {
+    margin-bottom: 5px;
+  }
+
+  .footer-section .address-box p, .footer-section .contact-box a {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .footer-content-box {
+    gap: 10px;
+  }
+
+  .newsletter-section .newsletter p {
+    font-size: 36px;
+    line-height: 32px;
+  }
+
+  .product-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 10px;
+    right: auto;
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+    }
+
+  .newsletter-section .newsletter {
+    top: 265px;
+    right: 15px;
+  }
+
+  .open-days {
+    left: 12px;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 327px) {
+  .newsletter-section .newsletter {
+    top: 290px;
+    right: 13px;
+  } 
+
+
+}
